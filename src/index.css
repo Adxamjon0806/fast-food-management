@@ -159,4 +159,115 @@ h1 {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  border-radius: 0 0 8px 8px;
+}
+
+.order {
+  width: 100%;
+  background: #fff;
+}
+
+.title-of-order,
+.title-id,
+.title-descriptions,
+.status-changer {
+  display: flex;
+  align-items: center;
+}
+
+.title-of-order {
+  width: 100%;
+  padding: 10px 10px;
+  justify-content: space-between;
+  border-bottom: var(--gray-border);
+}
+
+.title-id {
+  font-size: 15px;
+  gap: 7px;
+}
+
+.title-descriptions {
+  gap: 10px;
+}
+
+.title-descriptions img {
+  margin-top: 3px;
+}
+
+.products {
+  padding: 10px 10px;
+  border-bottom: var(--gray-border);
+}
+
+.products h4 {
+  margin-bottom: 21px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.products h4 p {
+  font-size: 15px;
+  margin-left: 23px;
+  font-weight: 400;
+  color: gray;
+}
+
+.watch-later-time {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 5px;
+}
+
+.watch-later-time img {
+  margin-top: 3px;
+}
+
+.status-changer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 10px;
+  gap: 10px;
+}
+
+.status-changer button {
+  border-radius: 8px;
+  border: none;
+  padding: 8px 10px;
+  font-size: 17px;
+}
+
+.cancel-btn,
+.get-order-btn {
+  width: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.status-changer .cancel-btn {
+  color: red;
+  border: var(--gray-border);
+  background-color: #fff;
+}
+
+.get-order-btn {
+  color: #fff;
+  background: var(--blue);
+}
+
+.status-changer .ready-btn {
+  width: 100%;
+  background: #fff;
+  color: var(--blue);
+  border: 2px solid var(--blue);
+}
+
+.searchedOrder {
+  width: 400px;
+  border: var(--gray-border);
 }

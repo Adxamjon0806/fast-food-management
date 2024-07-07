@@ -1,10 +1,16 @@
 import Layout from "./components/Layout";
+import MainContent from "./components/MainContent";
+import { OrdersProvider } from "./context/OrdersContext";
 
 function App() {
   return (
-    <div className="App">
-      <Layout>15</Layout>
-    </div>
+    <OrdersProvider>
+      <div className="App">
+        <Layout>
+          <MainContent />
+        </Layout>
+      </div>
+    </OrdersProvider>
   );
 }
 
